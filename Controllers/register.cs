@@ -14,7 +14,7 @@ namespace dotnetfordocker.Controllers
         [HttpGet]
         public string RegistrationForm()
         {
-            return " You are sucessfully signed up and deployed to docker hub";
+            return " You are sucessfully signed up and deployed to docker hub and cicd also working perfectly";
         }
     }
 }
