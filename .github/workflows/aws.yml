@@ -10,10 +10,10 @@ env:
   ECR_REPOSITORY: vivek2120          # set this to your Amazon ECR repository name
   ECS_SERVICE: Dev-Service                # set this to your Amazon ECS service name
   ECS_CLUSTER: DevCluster               # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: ecr-task-def  # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: aws/ecr-task-def  # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: ecs-first-container           # set this to the name of the container in the
-                                               # containerDefinitions section of your task definition
+                                               
 
 permissions:
   contents: read
