@@ -12,7 +12,7 @@ env:
   ECS_CLUSTER: DevCluster               # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: ecr-task-def.json  # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: ecs-first-container           # set this to the name of the container in the
+  CONTAINER_NAME: new-ecr           # set this to the name of the container in the
                                                
 
 permissions:
